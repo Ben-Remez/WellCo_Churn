@@ -1,6 +1,6 @@
 
 # WellCo Member Churn Prediction
-Its goal is to identify WellCo members at highest risk of churn and provide an actionable outreach list to guide retention efforts.
+This project's goal is to identify WellCo members at highest risk of churn and provide an actionable outreach list to guide retention efforts.
 
 The work combines data exploration, feature engineering, predictive modeling, evaluation, and operational optimization - following an end-to-end data science pipeline.
 
