@@ -1,0 +1,60 @@
+# ---- OS cruft ----
+.DS_Store
+Thumbs.db
+
+# ---- Python build/bytecode ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+ENV/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+# Optional: large notebook autosaves
+*.ipynb_save
+
+# ---- Editors/IDE ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- Testing/coverage/mypy ----
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.pytype/
+
+# ---- Logs & temp ----
+*.log
+*.tmp
+*.cache
+
+# ---- Data & artifacts (usually large / not tracked) ----
+data/
+artifacts/**
+
+# Keep the outreach CSV deliverable (adjust name/path if different)
+!artifacts/top_k_members.csv
+
+# If you keep small sample data for docs, un-ignore it:
+!data/sample_*.csv
+
+# ---- Security ----
+*.pem
+*.key
+*.crt
+*.env
+.env.*
