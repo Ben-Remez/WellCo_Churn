@@ -40,7 +40,7 @@ Wellco_churn/<br>
 │<br>
 ├── results/<br>
 │ ├── top_n_members.csv # final ranked outreach list<br>
-├── stakeholders_presentation.pdf # 3–5 slide executive summary.<br>
+├── stakeholders_presentation.pdf # executive summary.<br>
 ├── requirements.txt<br>
 └── README.md
 
